@@ -18,10 +18,10 @@ export default function Profile() {
 
         {/* Info Boxes */}
         <div className="space-y-3">
-          <InfoItem label="出身" value="東京" />
+          <InfoItem label="出身" value="東京都町田市" />
           <InfoItem label="趣味" value="筋トレ・読書・登山" />
           <InfoItem label="資格" value="基本情報技術者 TOEIC795" />
-          <InfoItem label="メッセージ" value="よろしくお願いします" />
+          <InfoItem label="メッセージ" value="プロダクトエンジニア目指して奮闘中" />
         </div>
       </div>
     </div>
