@@ -8,6 +8,12 @@ const works = [
     url: "https://meetingood.vercel.app/"
   },
   {
+    title: "VIRTUAL DRIVING SCHOOL",
+    description: "オンライン運転シミュレーター。運転技術の向上をサポートします。",
+    image: "/virtual-driving-school.png",
+    url: "https://drivingsupport.vercel.app/"
+  },
+  {
     title: "メール自動返信ツール",
     description: "StreamlitとGemini APIを用いたメール返信支援アプリです。",
     image: "mail-reply.png",
