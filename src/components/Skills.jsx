@@ -1,5 +1,5 @@
 import { FaPython, FaReact, FaDocker, FaAws } from "react-icons/fa";
-import { SiFlask, SiFastapi, SiRuby, SiRubyonrails, SiTypescript, SiVite, SiMysql, SiPostgresql } from "react-icons/si";
+import { SiFlask, SiFastapi, SiRuby, SiRubyonrails, SiTypescript, SiNextdotjs, SiMysql, SiPostgresql } from "react-icons/si";
 
 export default function Skills() {
   const skills = [
@@ -10,7 +10,7 @@ export default function Skills() {
     { name: "Rails", icon: <SiRubyonrails /> },
     { name: "TypeScript", icon: <SiTypescript /> },
     { name: "React", icon: <FaReact /> },
-    { name: "Vite", icon: <SiVite /> },
+    { name: "Next.js", icon: <SiNextdotjs /> },
     { name: "MySQL", icon: <SiMysql /> },
     { name: "PostgreSQL", icon: <SiPostgresql /> },
     { name: "Docker", icon: <FaDocker /> },
