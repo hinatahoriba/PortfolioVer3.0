@@ -18,6 +18,12 @@ const works = [
     description: "StreamlitとGemini APIを用いたメール返信支援アプリです。",
     image: "mail-reply.png",
     url: "https://mail-reply.streamlit.app/"
+  },
+  {
+    title: "MINIMALIST TODO LIST",
+    description: "ローカルストレージでHTMLファイル1つだけで作成した。TODOリストです",
+    image: "minimalist-todo-list.png",
+    url: "https://mail-reply.streamlit.app/"
   }
 ];
 
