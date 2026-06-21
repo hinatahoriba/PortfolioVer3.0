@@ -2,10 +2,16 @@ import { Card, CardContent, CardMedia, Typography, Button } from "@mui/material"
 
 const works = [
   {
-    title: "Meetingood",
-    description: "会議の司会や進行に不安を感じる初心者向けウェブアプリケーション。",
-    image: "/meetingood.png",
-    url: "https://meetingood.vercel.app/"
+    title: "Preness",
+    description: "TOEFL ITP®試験特化型の学習アプリ。間違えた問題の傾向から「真の弱点」を特定する高度な分析レポート機能がある。",
+    image: "/preness.png",
+    url: "https://toefl.preness-app.com/"
+  },
+  {
+    title: "縁 E-NISHI",
+    description: "1秒でつながる、新しい時代のデジタル名刺「縁（E-NISHI）」。「人と人との縁を、もっと身近に。」をコンセプトにしたデジタル名刺アプリ。",
+    image: "/e-nishi.png",
+    url: "https://e-nishi.vercel.app/"
   },
   {
     title: "VIRTUAL DRIVING SCHOOL",
@@ -14,9 +20,15 @@ const works = [
     url: "https://drivingsupport.vercel.app/"
   },
   {
+    title: "Meetingood",
+    description: "会議の司会や進行に不安を感じる初心者向けウェブアプリケーション。",
+    image: "/meetingood.png",
+    url: "https://meetingood.vercel.app/"
+  },
+  {
     title: "MINIMALIST TODO LIST",
     description: "ローカルストレージでHTMLファイル1つだけで作成した。TODOリストです",
-    image: "minimalist-todo-list.png",
+    image: "/minimalist-todo-list.png",
     url: "https://website-playground-rosy.vercel.app/todo.html"
   }
 ];
@@ -37,7 +49,7 @@ export default function Works() {
                 {work.description}
               </Typography>
               <Button variant="contained" color="primary" href={work.url}>
-                詳細を見る
+                実際に見てみる
               </Button>
             </CardContent>
           </Card>
