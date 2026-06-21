@@ -6,20 +6,15 @@ import Works from './components/Works.jsx'
 
 function App() {
   return (
-    <>
-      <div className="w-full bg-white">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between w-full py-8 lg:py-16">
-          <div className="w-full lg:w-[60%]">
-            <Profile />
-          </div>
-          <div className="w-full lg:w-[40%] flex justify-center items-center">
-            <SocialIcons />
-          </div>
-        </div>
+    <div className="min-h-screen bg-slate-50/50 py-12 md:py-20">
+      {/* 💡 ここで全体の「最大幅(max-w)」と「左右中央寄せ(mx-auto)」を一括制御します */}
+      <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 space-y-10 md:space-y-16">
+        <Profile />
+        <SocialIcons />
+        <Skills />
+        <Works />
       </div>
-      <Skills />
-      <Works />
-    </>
+    </div>
   )
 }
 
