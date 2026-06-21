@@ -1,5 +1,5 @@
 import {
-  FaInstagram, FaLine, FaFacebook, FaLinkedin, FaDiscord, FaGithub,
+  FaInstagram, FaLine, FaFacebook, FaLinkedin, FaGithub,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -43,14 +43,6 @@ const DEFAULT_LINKS = [
     Icon: FaLinkedin,
     colorClass: "text-sky-500",
     hoverColorClass: "group-hover:text-sky-700",
-  },
-  {
-    key: "discord",
-    label: "Discord",
-    href: "http://discordapp.com/users/1065236698478428222",
-    Icon: FaDiscord,
-    colorClass: "text-indigo-500",
-    hoverColorClass: "group-hover:text-indigo-700",
   },
   {
     key: "github",
