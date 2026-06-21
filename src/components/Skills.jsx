@@ -18,16 +18,24 @@ export default function Skills() {
   ];
 
   return (
-    <section className="w-full py-10 bg-gray-50">
-      <h2 className="text-3xl font-bold text-center mb-8">Skills</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 px-6 max-w-5xl mx-auto">
+    <section className="w-full py-12 bg-white">
+      <h2 className="text-2xl font-bold text-center mb-10 text-gray-800">Skills</h2>
+      
+      {/* 画像1をベースにした、カード枠のないシンプルな4列グリッドレイアウト */}
+      <div className="grid grid-cols-4 gap-y-10 gap-x-4 max-w-2xl mx-auto px-4">
         {skills.map((skill) => (
           <div
             key={skill.name}
-            className="flex flex-col items-center p-4 bg-white rounded-2xl shadow hover:shadow-lg transition-shadow duration-200"
+            className="flex flex-col items-center justify-center transition-opacity duration-200 hover:opacity-60"
           >
-            <div className="text-4xl mb-2">{skill.icon}</div>
-            <p className="text-sm font-medium">{skill.name}</p>
+            {/* アイコン：モダンな濃いめのグレー */}
+            <div className="text-4xl mb-2 text-gray-800">
+              {skill.icon}
+            </div>
+            {/* テキスト：少しマイルドなグレーで洗練された印象に */}
+            <p className="text-xs sm:text-sm font-medium text-gray-500 tracking-wide">
+              {skill.name}
+            </p>
           </div>
         ))}
       </div>
